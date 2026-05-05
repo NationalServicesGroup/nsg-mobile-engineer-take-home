@@ -10,7 +10,8 @@ import { useMigrations } from 'drizzle-orm/expo-sqlite/migrator';
 import { useDrizzleStudio } from 'expo-drizzle-studio-plugin';
 import * as SQLite from 'expo-sqlite';
 import { PropsWithChildren } from 'react';
-import { SafeAreaView, Text } from 'react-native';
+import { Text, View } from 'react-native';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { DB_NAME } from '@/constants/db';
 import { db } from '@/db/client';
