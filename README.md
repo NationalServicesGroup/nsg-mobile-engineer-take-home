@@ -130,20 +130,4 @@ We will evaluate your submission based on:
 
 During our call, be prepared to discuss the concepts and patterns in your code. Here are some areas we may explore — these are not trick questions, just topics for a technical conversation:
 
-**TypeScript / JavaScript**
 
-- How does TypeScript infer types from the Drizzle schema (`$inferSelect`, `$inferInsert`)? What are generics and how are they used in libraries like TanStack Query?
-- Why do we store currency amounts as integers (cents) instead of floats?
-- How do closures work in your event handlers and callbacks?
-- What's the difference between `type` and `interface`? When would you use one over the other?
-
-**React Native / Expo**
-
-- How does Expo Router's file-based routing work? How do dynamic routes (`[id]`) resolve?
-- Why use `FlatList` instead of `ScrollView` for a list of items? What is virtualization?
-- Walk through the React rendering lifecycle — when does your component re-render and why?
-- What does `useCallback` / `useMemo` do and when should you use them?
-- How do optimistic updates work with TanStack Query? Why is `onMutate` useful?
-- How would you handle a race condition between a mutation and a query refetch?
-
-These topics are meant to guide your thinking as you build — there are no gotchas.
