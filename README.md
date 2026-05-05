@@ -49,7 +49,7 @@ Create the following screens using Expo Router:
 
 1. Create your own repo using the template (see [Getting This Repo](#getting-this-repo))
 2. Clone your new repository
-3. Install dependencies: `npm install`
+3. Install dependencies: `bun install`
 3. Start the Expo dev server: `npx expo start`
 4. Run the linter: `npx expo lint`
 
