@@ -1,18 +1,10 @@
 import AppProviders from '@/providers/app-providers';
-import { Stack } from 'expo-router';
+import { Slot } from 'expo-router';
 
 export default function RootLayout() {
   return (
     <AppProviders>
-      <RootNavigation />
+      <Slot />
     </AppProviders>
-  );
-}
-
-function RootNavigation() {
-  return (
-    <Stack>
-      <Stack.Screen name="index" options={{ title: 'Expenses' }} />
-    </Stack>
   );
 }
