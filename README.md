@@ -111,7 +111,8 @@ You now have your own private copy to work in.
 1. Ensure all changes are committed and pushed
 2. Go to your repository's **Settings → Collaborators → Add people**
 3. Add the following reviewers as collaborators with **Read** access:
-   - `joh-nsg` `juliusoh`
+   - `joh-nsg`
+   - `alexball-hge`
 4. Reply to the email thread you received with a link to your repository
 
 ## Evaluation
